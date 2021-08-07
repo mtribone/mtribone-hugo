@@ -1,2 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mtribone design</title><link>https://mtribone.design/</link><description>Recent content on mtribone design</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://mtribone.design/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://mtribone.design/about/</link><pubDate>Fri, 06 Aug 2021 13:59:52 -0400</pubDate><guid>https://mtribone.design/about/</guid><description>I am a Pennsylvania-based digital designer with a fine arts background. I have been designing and developing websites and illustrations for online learning, small businesses, non-profit organizations, and motion for over 20 years. I am experienced in balancing art and functionality because my early art career, functional ceramics, was steeped in making valuable products.
-I am looking forward to collaborating with others on their web projects, illustrations, and 3D. Using participatory design means that we get to commit to creating together.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mtribone design</title>
+    <link>https://mtribone.design/</link>
+    <description>Recent content on mtribone design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://mtribone.design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get in Touch</title>
+      <link>https://mtribone.design/contact/</link>
+      <pubDate>Fri, 06 Aug 2021 14:14:33 -0400</pubDate>
+      
+      <guid>https://mtribone.design/contact/</guid>
+      <description>Design. Illustration. 3D.
+I&amp;rsquo;m always open to meet new people and talk about their organizations and future projects.
+info [@] mtribone.design</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://mtribone.design/about/</link>
+      <pubDate>Fri, 06 Aug 2021 13:59:52 -0400</pubDate>
+      
+      <guid>https://mtribone.design/about/</guid>
+      <description>I am a Pennsylvania-based digital designer with a fine arts background. I have been designing and developing websites and illustrations for online learning, small businesses, non-profit organizations, and motion for over 20 years. I am experienced in balancing art and functionality because my early art career, functional ceramics, was steeped in making valuable products.
+I am looking forward to collaborating with others on their web projects, illustrations, and 3D. Using participatory design means that we get to commit to creating together.</description>
+    </item>
+    
+  </channel>
+</rss>

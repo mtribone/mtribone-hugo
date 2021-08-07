@@ -1,3 +1,4 @@
-baseURL = 'https://mtribone.design/'
-languageCode = 'en-us'
-title = 'mtribone design'
+baseURL = "https://mtribone.design/"
+languageCode = "en-us"
+title = "mtribone design"
+theme = "mtribone"
