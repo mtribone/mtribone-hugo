@@ -1,4 +1,5 @@
 <header class="banner-wrapper">
-  <h1 class="logo-title"><img src="{{ "mtribone-design-logo.png" | relURL }}" width="80px">{{ .Site.Title }}</h1>
+  <h1 class="logo-title">
+    <img src="{{ "mtribone-design-logo.png" | relURL }}" class="logo"> <span class="logo-words">{{ .Site.Title }}</span></h1>
   {{- partial "nav.html" . -}}
 </header>

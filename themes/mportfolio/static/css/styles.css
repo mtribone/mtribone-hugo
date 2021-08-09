@@ -6,15 +6,25 @@ body {
 	margin: 0 auto;
 }
 
-header {
+.banner-wrapper {
 	background-color: #f5f5f5;
 	color:  #333;
 	padding: .25rem;
 }
 
 .logo-title {
-	display: inline-block;
 	font-weight: 400;
+}
+
+.logo {
+	float: left;
+	padding-right: 1rem;
+	width: 5rem;
+}
+
+.logo-words {
+	padding-top: 1rem;
+	vertical-align: middle;
 }
 
 /* Global Navigation */
