@@ -13,18 +13,35 @@ header {
 }
 
 .logo-title {
+	display: inline-block;
 	font-weight: 400;
 }
 
 /* Global Navigation */
-	nav ul {
-	  list-style: none;
-	  padding-left: 0;
-	  text-align: center;
-	}
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
 
-	nav a {
-    display: block;
-    padding: .5rem 0;
-		text-decoration: none;
+nav a {
+  display: block;
+  padding: .5rem 0;
+	text-decoration: none;
+}
+
+footer {
+	background-color: #000;
+	color: #FFF;
+}
+
+@media screen and (min-width: 43.75rem) { /* 700px */
+/* Global Navigation */
+  nav ul {
+  	text-align: right;
+  }
+	nav li {
+		display: inline-block;
+		padding-right: 1.5rem;
 	}
+}

@@ -1,1 +1,25 @@
+.banner-wrapper { grid-area: banner-wrapper; }
+.logo-title { grid-area: logo-title; }
 nav { grid-area: global-nav; }
+main { grid-area: main; }
+footer { grid-area: footer; }
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-areas:
+	  "banner-wrapper"
+	  "main"
+	  "footer";
+	margin: 0;
+}
+
+@media screen and (min-width: 43.75rem) { /* 700px */
+	.banner-wrapper {
+			display: grid;
+			grid-template-columns: 1fr 1.25fr;
+			grid-template-areas:
+			"logo-title global-nav"
+			;
+	}
+}	
