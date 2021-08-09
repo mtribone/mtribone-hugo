@@ -1,5 +1,6 @@
 body {
 	font-family: "montserrat-1", "montserrat-2", sans-serif;
+	margin: 0;
 }
 
 .container {
@@ -9,11 +10,24 @@ body {
 .banner-wrapper {
 	background-color: #f5f5f5;
 	color:  #333;
-	padding: .25rem;
+	padding: .25rem .85rem;
 }
 
 .logo-title {
 	font-weight: 400;
+}
+
+.logo-title a:link,
+.logo-title a:visited {
+	text-decoration: none;
+	background-color: #f5f5f5;
+	color: #000;
+}
+
+.logo-title a:hover {
+	text-decoration: none;
+	background-color: #f5f5f5;
+	color: #000;
 }
 
 .logo {
