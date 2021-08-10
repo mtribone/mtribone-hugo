@@ -66,9 +66,17 @@ nav a:hover {
 	border-bottom: 3px solid #1c7ab5;
 }
 
+.home-page {
+	background: url("/pencil.png") #000 no-repeat center;
+	color: #FFF;
+	min-height: 12rem;
+	padding: 2rem 1.25rem;
+}
+
 footer {
 	background-color: #000;
 	color: #FFF;
+	padding: 2rem;
 }
 
 @media screen and (min-width: 43.75rem) { /* 700px */

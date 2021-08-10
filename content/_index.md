@@ -1,2 +1,2 @@
-## 2021 Refresh
-New Year. New Me.
+## 2021 Refresh {.refresh}
+### New Year. New Me. {.home-statement}
