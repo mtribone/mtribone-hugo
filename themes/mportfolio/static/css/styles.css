@@ -68,7 +68,10 @@ nav a:hover {
 
 /* Home Page */
 .home-page {
-	background: url("/pencil.png") #000 no-repeat center;
+	background: url("/pencil.png") #000 no-repeat;
+	background-position: center 25%;
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: #FFF;
 	min-height: 12rem;
 	padding: 2rem 1.25rem;
@@ -104,7 +107,7 @@ footer {
 		padding-right: 1.5rem;
 	}
 
-	.home-page { min-height: 20rem; }
+	.home-page { min-height: 32rem; }
 
 	.refresh {
 	font-size: 3rem;
