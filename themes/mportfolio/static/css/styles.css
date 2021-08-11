@@ -66,13 +66,26 @@ nav a:hover {
 	border-bottom: 3px solid #1c7ab5;
 }
 
+/* Home Page */
 .home-page {
 	background: url("/pencil.png") #000 no-repeat center;
 	color: #FFF;
 	min-height: 12rem;
 	padding: 2rem 1.25rem;
+	text-align: center;
 }
 
+.refresh {
+	font-size: 2.5rem;
+}
+
+.home-statement {
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+
+/* Footer */
 footer {
 	background-color: #000;
 	color: #FFF;
@@ -89,5 +102,15 @@ footer {
 	nav li {
 		display: inline-block;
 		padding-right: 1.5rem;
+	}
+
+	.home-page { min-height: 20rem; }
+
+	.refresh {
+	font-size: 3rem;
+  }
+
+	.home-statement {
+		font-size: 2.5rem;
 	}
 }
