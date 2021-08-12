@@ -1,5 +1,11 @@
 .banner-wrapper { grid-area: banner-wrapper; }
 .logo-title { grid-area: logo-title; }
+
+.project-wrapper { grid-area: project-wrapper; }
+.project { grid-area: project; }
+.project-list { grid-area: project-list; }
+
+
 nav { grid-area: global-nav; }
 main { grid-area: main; }
 footer { grid-area: footer; }
@@ -21,5 +27,13 @@ footer { grid-area: footer; }
 			grid-template-areas:
 			"logo-title global-nav"
 			;
+	}
+
+	.project-wrapper {
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+		grid-template-areas: 
+		"project project-list"
+		;
 	}
 }	

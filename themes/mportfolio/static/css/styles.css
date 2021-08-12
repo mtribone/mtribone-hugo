@@ -89,7 +89,8 @@ nav a:hover {
 
 /* Single and Listing Pages */
 .single-page,
-.listing-page { padding: 2rem 1rem; }
+.listing-page,
+.project-wrapper { padding: 2rem 1rem; }
 
 /* Footer */
 footer {
