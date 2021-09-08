@@ -5,10 +5,12 @@ draft: false
 
 ![alt](//via.placeholder.com/640x150)
 
-Description...
+## About
 
-### Tech used
+## Visual Direction
 
-* item
-* item
-* item
+## Color Scheme
+
+## Typeface
+
+## Identity
