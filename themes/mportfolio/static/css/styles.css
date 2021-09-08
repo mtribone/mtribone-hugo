@@ -1,5 +1,6 @@
 body {
 	font-family: "montserrat-1", "montserrat-2", sans-serif;
+	line-height: 1.75rem;
 	margin: 0;
 }
 
@@ -16,8 +17,9 @@ body {
 
 /* Logo and Logo Text */
 .logo-title {
-	font-size: 2rem;
+	font-size: 1.75rem;
 	font-weight: 400;
+	min-height: 4rem;
 }
 
 .logo-title a:link,
@@ -40,7 +42,7 @@ body {
 }
 
 .logo-words {
-	padding-top: 1rem;
+	padding-top: 1.65rem;
 	vertical-align: middle;
 }
 
@@ -103,14 +105,9 @@ footer {
 
 @media screen and (min-width: 43.75rem) { /* 700px */
 
-/* Logo and Logo Text */
-	.logo-title {
-		font-size: 2.5rem;
-	}
-
 /* Global Navigation */
   nav ul {
-  	padding-top: .5rem;
+  	padding-top: -.5rem;
   	text-align: right;
   }
 
@@ -130,3 +127,12 @@ footer {
 	.single-page,
   .listing-page { padding: 3rem 2rem; }
 }
+
+@media screen and (min-width: 51rem) { /* 960px */
+
+/* Logo and Logo Text */
+	.logo-title {
+		font-size: 2.25rem;
+	}
+}
+

@@ -28,7 +28,9 @@ footer { grid-area: footer; }
 			"logo-title global-nav"
 			;
 	}
+}	
 
+@media screen and (min-width: 51rem) { /* 960px */
 	.project-wrapper {
 		display: grid;
 		grid-template-columns: 4fr 1fr;
