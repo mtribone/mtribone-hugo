@@ -1,17 +1,17 @@
 {{ define "main" }}
 <div class="project-wrapper">
-	<section class="project-list">
+	<aside class="project-list">
 		<h2>Projects</h2>
 		<ul>
 			{{ range (where .Site.RegularPages "Type" "in" "projects").ByDate.Reverse }}
 			<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
 			{{ end }}
 		</ul>
-	</section>
+	</aside>
 
-	<section class="project">
+	<div class="project">
 		<h1>{{ .Title }}</h1>
 		{{ .Content }}
-	</section>
+	</div>
 </div>
 {{ end }}
